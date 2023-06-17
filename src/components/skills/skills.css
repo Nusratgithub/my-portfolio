@@ -1,0 +1,44 @@
+.skills {
+  /* background: #172132; */
+  background: #0e1527;
+  padding-bottom: 50px;
+}
+
+.skillsItem {
+  background: #1d293e;
+  border: 1px solid #353c4d;
+  padding: 0 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: white;
+  transition: 0.2s;
+}
+
+.skillsItem:hover {
+  transform: scale(1.05);
+}
+
+.skillsItem img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+}
+
+.skillsItem h2 {
+  font-size: 21px;
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+}
+
+.skillsNametext {
+  margin: 8px;
+  margin-left: 5px;
+}
+
+.skillsNametext p {
+  color: rgb(165, 158, 158);
+}
