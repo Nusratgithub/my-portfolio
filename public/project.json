@@ -15,8 +15,8 @@
         "siteName": "Doctors Appointment",
         "desc": "Doctor appointment related website",
         "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
-        " clintSite": "https://github.com/mishkat433/modern-laptop-clint",
-        "serverSite": "https: //github.com/mishkat433/modern-laptop-server"
+        " clintSite": "https://github.com/Nusratgithub/doctors-portal-client-side",
+        "serverSite": "https://github.com/Nusratgithub/doctors-portal-server-side"
     },
     {
         "id": 2,
@@ -57,7 +57,7 @@
     },
     {
         "id": 4,
-        "url": "https://starlit-empanada-19efca.netlify.app",
+        "url": "https://peaceful-melomakarona-37420f.netlify.app",
         "banner": [
             "https://i.ibb.co/t3Kn4Rt/Capture.png",
             "https://i.ibb.co/qC2Qzxg/modern5.png",
