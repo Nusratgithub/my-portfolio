@@ -1,8 +1,5 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-// import logo from '../../../assets/logo.svg'
-import { toast } from 'react-toastify'
-// import { AuthContext } from '../../Contexts/AuthProvider'
 
 
 const navLinks = [

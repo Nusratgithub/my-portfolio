@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import TypeWriterEffect from "react-typewriter-effect";
 import logo from "../../logo.svg";
 import "./UnderHeader.css";
+
 const UnderHeader = () => {
   return (
     <div className="underHeader-wrapper">

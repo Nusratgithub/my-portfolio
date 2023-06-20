@@ -49,7 +49,7 @@
             "https://i.ibb.co/FKbm9nD/modern7.png",
             "https://i.ibb.co/RgjfVMZ/modern6.png"
         ],
-        "details": "Unique design website, Resale products, Admin manage, verify user, 3 types of user, sale product, add products, report product. Implement login/signup/logout, protected route, advertise product, Ui/Ux based website.",
+        "details": "Unique design website, Resale products, Admin manage, verify user, 3 types of user, sale product, add products, report product. Implement login/sign up/logout, protected route, advertise product, Ui/Ux based website.",
         "siteName": "Resale Furniture",
         "desc": "Second hand Furniture sales related website",
         "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
