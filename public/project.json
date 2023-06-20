@@ -20,24 +20,6 @@
     },
     {
         "id": 2,
-        "url": "https://perfect-click2.web.app",
-        "banner": [
-            "https://i.ibb.co/YpXCYFB/perfect-Click.png",
-            "https://i.ibb.co/W2d6fNG/perfect-Click5.png",
-            "https://i.ibb.co/GcsR0gQ/perfect-Click2.png",
-            "https://i.ibb.co/SRrZSgS/perfect-Click3.png",
-            "https://i.ibb.co/rmzMQ0x/perfect-Click4.png",
-            "https://i.ibb.co/xqPTzdj/perfect-Click6.png"
-        ],
-        "details": "On this Photography website we can see services and Photography, Review specific services, Login/Register, and Update or delete Reviews. This website creates with ReactJs, ExpressJs, MongoDB, Tailwind CSS, Firebase, and more frameworks and packages.",
-        "siteName": "Perfect Click",
-        "desc": "Personal photography service related Website",
-        "technology": "React, React-slick-slider, React-router-dom, React-icon, Firebase authentication, Regex, JWT, NodeJS, ExpressJS, MongoDB, TailwindCSS",
-        " clintSite": "https://github.com/mishkat433/perfect-click-clint",
-        "serverSite": "https: //github.com/mishkat433/perfect-click-server"
-    },
-    {
-        "id": 3,
         "url": "https://helpful-gingersnap-1433f0.netlify.app",
         "banner": [
             "https://i.ibb.co/F51VWkq/autoCar.png",
@@ -56,7 +38,7 @@
         "serverSite": "https://github.com/Nusratgithub/genius-car-server-side"
     },
     {
-        "id": 4,
+        "id": 3,
         "url": "https://peaceful-melomakarona-37420f.netlify.app",
         "banner": [
             "https://i.ibb.co/t3Kn4Rt/Capture.png",
