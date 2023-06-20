@@ -2,6 +2,8 @@
   text-align: center;
   background: #0e1527;
   height: auto;
+  font-family: "Poppins", sans-serif;
+  color: rgb(204, 197, 197);
 }
 
 .App-logo {

@@ -24,7 +24,7 @@ const ProjectDetails = () => {
 
     return (
         <>
-            <div className='w-11/12 mx-auto text-white my-20'>
+            <div className='w-11/12 mx-auto  my-20'>
                 <Swiper
                     effect={"coverflow"}
                     grabCursor={true}
@@ -54,15 +54,15 @@ const ProjectDetails = () => {
                         <p className='mt-3 font-semibold'>Technology used : {singleProject.technology}</p>
                         <div className="card-actions justify-evenly gap-10 mt-5">
                             <div className='flex flex-col items-center gap-y-4'>
-                                <a href={singleProject.clintSite} target="blank" className="text-white hover:cursor-pointer hover:text-sky-500 duration-300 text-3xl" title='Clint Site Code'><FaGithubAlt /></a>
+                                <a href={singleProject.clintSite} target="blank" className=" hover:cursor-pointer hover:text-sky-500 duration-300 text-3xl" title='Clint Site Code'><FaGithubAlt /></a>
                                 <p>Clint Site Code</p>
                             </div>
                             <div className='flex flex-col items-center gap-y-4'>
-                                <a href={singleProject.serverSite} target="blank" className="text-white hover:text-sky-500 duration-300 text-3xl" title='Server Site Code'><FaGithubSquare /></a>
+                                <a href={singleProject.serverSite} target="blank" className=" hover:text-sky-500 duration-300 text-3xl" title='Server Site Code'><FaGithubSquare /></a>
                                 <p>Server Site Code</p>
                             </div>
                             <div className='flex flex-col items-center gap-y-4'>
-                                <a href={singleProject.url} target="blank" className="text-white hover:text-sky-500 duration-300 text-3xl" title='Live Site'><FaRegPaperPlane /></a>
+                                <a href={singleProject.url} target="blank" className=" hover:text-sky-500 duration-300 text-3xl" title='Live Site'><FaRegPaperPlane /></a>
                                 <p>Live Site Link</p>
                             </div>
                         </div>

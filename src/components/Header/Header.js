@@ -66,11 +66,11 @@ const Header = () => {
                 </ul>
                 <div>
                     <ul className="items-center hidden space-x-8 lg:flex">
-                        <li>
+                        <Link to='https://docs.google.com/document/d/1PXmdNOgjxj-Z_pe_YZ1UGJCc_ecZys8hzHWres1ccWo/edit?usp=sharing'>
                         <button className='px-4 py-2 bg-sky-500 rounded font-semibold text-white hover:text-white hover:bg-sky-600 text-base leading-21'>
                         Resume
                         </button>
-                        </li>
+                        </Link>
                         {/* {
                             user?.uid ?
                                 <li className='dropdown dropdown-end'>

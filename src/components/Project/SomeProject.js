@@ -28,7 +28,7 @@ useEffect(() => {
         }
       </div>
       <Link to='/projects'>
-      <button className="border px-4 py-1 text-white hover:bg-sky-500 rounded hover bg-sky-600">More Project</button>
+      <button className="border px-4 py-1  hover:bg-sky-500 rounded hover bg-sky-600">More Project</button>
       </Link>
     </div>
   );
