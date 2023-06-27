@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
     console.log(project.banner);
     return (
-        <div className="card rounded-md shadow-xl bg-[#102649e9] " data-aos="flip-left">
+        <div className="card rounded-md shadow-xl bg-[#13233fe9]" data-aos="flip-left">
             <figure><img src={project?.banner} className='h-[300px] w-full' alt="" /></figure>
             <div className="card-body p-3 text-center">
                 <h2 className="text-2xl">{project.siteName}</h2>
@@ -13,8 +13,8 @@ const ProjectCard = ({ project }) => {
                 <div className="card-actions justify-evenly gap-10 my-5 ">
                     {/* <a href={project.clintSite} target="blank" className=" hover:text-orange-500 duration-300 text-3xl" title='Clint Site Code'><FaGithubAlt /></a>
                     <a href={project.serverSite} target="blank" className=" hover:text-orange-500 duration-300 text-3xl" title='Server Site Code'><FaGithubSquare /></a> */}
-                    <Link to={`/details/${project.id}`} className='border rounded px-3 py-1 bg-sky-500 hover:bg-sky-600'>Details</Link>
-                    <a href={project.url} target="blank" className=" hover:text-sky-500 duration-300 text-3xl" title='Live Site'><FaRegPaperPlane /></a>
+                    <Link to={`/details/${project.id}`} className='border rounded px-4 py-1 text-xl bg-orange-400 hover:bg-orange-500'>Details</Link>
+                    <a href={project.url} target="blank" className=" hover:text-gray-400 duration-300 text-3xl" title='Live Site'><FaRegPaperPlane /></a>
                 </div>
             </div>
         </div>

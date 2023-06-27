@@ -6,16 +6,14 @@ import OtherPart from "../OtherPart/otherPaart";
 import Contact from "../Contact/Contact";
 import SomeProject from "../Project/SomeProject";
 
-
 const Home = () => {
   
   return (
     <div>
       <UnderHeader></UnderHeader>
-      <About></About>
       <Skills></Skills>
       <SomeProject></SomeProject>
-      <OtherPart></OtherPart>
+      {/* <OtherPart></OtherPart> */}
       <Contact></Contact>
     </div>
   );

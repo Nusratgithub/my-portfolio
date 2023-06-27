@@ -1,36 +1,39 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../logo.svg";
-import "./UnderHeader.css";
+import resume from '../../assets/Nusrat Resume.pdf'
 
-const UnderHeader = () => {
+export default function About() {
   return (
-    <div className="underHeader-wrapper">
-      <div className="underHeader_item">
-        <div className="underHeader_text_side common-underHeader-div">
-          <div className="my-text-underHeader">
-            <h1>Welcome!!</h1>
-            <h2>I'm <span className="">Nusrat Jahan</span></h2>
-            <p>
-              I'm a professional front-end web developer. <br />
-              I have been learning web development since 2021. <br />
-              My Work Is Always Simple, Fresh, And Pixel-Perfect. readable code
-              also.
-            </p>
-            <div className="underHeader-buttons ">
-              <button>Download Cv</button>
-              <Link to="/contact">
-                <button>Contact</button>
-              </Link>
-            </div>
+    <section id="about">
+      <div className="container lg:text-2xl mx-auto flex pt-40 pb-20 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <h1 className="text-4xl">Hi!!</h1>
+          <h2 className="text-3xl my-3">I'm <span className="text-orange-400">Nusrat Jahan</span></h2>
+          <p className="mb-8 leading-relaxed text-slate-50">
+            I'm a professional front-end web developer.<br />
+            I have been learning web development since 2021.<br />
+            My Work Is Always Simple, Fresh, And Pixel-Perfect. readable code
+            also.
+          </p>
+          <div className="flex justify-center">
+            <a download="Nusrat Resume" href={resume} target="_blank" rel="noopener noreferrer"
+              className="inline-flex text-white bg-orange-400 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Download CV</a>
+            <Link
+              to="/contact"
+              className="ml-4 inline-flex text-white bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+              Contact
+            </Link>
           </div>
         </div>
-        <div className="underHeader-img-side w-full common-underHeader-div">
-          <img src={logo} alt="" />
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            className="object-cover object-center rounded"
+            alt="hero"
+            src="./coding.svg"
+          />
         </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default UnderHeader;
+}

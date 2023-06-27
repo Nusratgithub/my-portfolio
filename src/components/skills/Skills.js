@@ -18,9 +18,9 @@ import redux from "./skillsiImg/redux.png";
 const Skills = () => {
   return (
     <div>
-      <div className="skills container mx-auto mt-20">
+      <div className="skills container mx-auto">
       <SectionTitle title="My Skills"></SectionTitle>
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 lg:mx-0 mx-2 my-10">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-4 lg:mx-0 mx-2 mt-6">
        
       <div className="skillsItem">
                   <img src={html} alt="" />
