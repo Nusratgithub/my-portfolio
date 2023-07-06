@@ -3,7 +3,7 @@ import SectionTitle from '../SectionTItle/SectionTitle'
 
 const TestimonialHeading = () => {
     return (
-        <div className='my-10 mx-auto text-white'>
+        <div className='mx-auto mb-10 text-white'>
     <SectionTitle title='Testimonial'></SectionTitle>           
         </div>
     )

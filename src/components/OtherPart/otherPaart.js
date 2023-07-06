@@ -3,16 +3,16 @@ import { Link } from "react-router-dom";
 
 const OtherPart = () => {
   return (
-    <div className="">
-      <div className="container mx-auto py-5 bg-orange-400">
+    <div className="my-10">
+      <div className="container mx-auto py-4 bg-gray-800">
         <div className="">
-          <div className=" mx-auto my-3 lg:w-7/12 ">
-            <h1 className="text-2xl py-3">HIRE ME FOR YOUR AWESOME PROJECT</h1>
+          <div className="text-center mx-auto my-3 lg:w-1/2 ">
+            <h1 className="text-xl py-3 text-orange-400">HIRE ME FOR YOUR AWESOME PROJECT</h1>
             <p className="text-xl">
               I am available for Freelance projects that depends on your project value. Hire me and get your project done!
             </p>
             <Link to='/contact'>
-              <button className="border px-5 rounded py-1 hover:bg-orange-400  my-4">HIRE ME</button>
+              <button className="border px-5 rounded py-1 bg-orange-400  my-4">HIRE ME</button>
             </Link>
           </div>
         </div>

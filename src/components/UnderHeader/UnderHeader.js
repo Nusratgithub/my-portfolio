@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import resume from '../../assets/Nusrat Resume.pdf'
 import Typewriter from 'typewriter-effect';
 
-export default function About() {
+export default function UnderHeader() {
   return (
     <section id="about">
       <div className="container lg:text-2xl mx-auto flex pt-20 lg:pt-40 pb-20 md:flex-row flex-col items-center">

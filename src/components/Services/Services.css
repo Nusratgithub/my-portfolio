@@ -4,7 +4,7 @@
 }
 
 .inner-service-content {
-  border: 1px solid #16a6ee;
+  border: 1px solid white;
   /* text-align: ; */
   padding: 15px;
   color: white;
@@ -19,7 +19,7 @@
   height: 0;
   width: 100%;
   position: absolute;
-  background-color: #16a6ee;
+  background-color: #ff9800;
   z-index: -1;
   transition: 0.3s;
   left: 0px;
@@ -46,7 +46,7 @@
   width: 100px;
   margin: auto;
   height: 100px;
-  color: #16a6ee;
+  color: #ff9800;
   background: #16a6ee33;
   padding: 10px;
   border-radius: 50%;

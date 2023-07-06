@@ -4,18 +4,14 @@ import { HiStar } from 'react-icons/hi'
 const TestimonialItem = ({ testimonial }) => {
     const { name, title, img, icon, description } = testimonial
     return (
-        <div className='border border-[#eee5e5] p-3 rounded-xl mb-5'>
-            <div className='flex items-center justify-between mb-3'>
-                <div className='flex gap-4 mb-2'>
-                    <img src={img} alt={name} />
-                    <div>
-                        <h2 className='font-bold mb-[10px]'>{name}</h2>
-                        <p className='font-semibold text-lg'>{title}</p>
-                    </div>
+        <div className='border border-[#eee5e5] p-7 rounded mb-10'>
+            <div className='flex items-center'>
+                <div className='mx-auto'>
+                    <img src={img} className='mx-auto mb-3' alt={name}/>
+                    <h2 className='font-semibold mb-3'>{name}</h2>
                </div>
-                <img className='text-left' src={ icon } alt="icon" />
             </div>
-            <p className=''>{ description }</p>
+            <p className='text-center'>{ description }</p>
 
         </div>
     )

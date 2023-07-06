@@ -15,9 +15,9 @@ const Home = () => {
       <UnderHeader></UnderHeader>
       <Skills></Skills>
       <SomeProject></SomeProject>
-      {/* <OtherPart></OtherPart> */}
-      <Team></Team>
-      <Testimonials/>
+      {/* <Team></Team> */}
+      <Testimonials />
+      <OtherPart></OtherPart>
       <Contact></Contact>
     </div>
   );

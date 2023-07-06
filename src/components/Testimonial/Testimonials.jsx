@@ -8,10 +8,9 @@ import TestimonialItem from './TestimonialItem'
 const testimonials = [
     {
         id: 1,
-        name: 'Awlad Hossain',
+        name: 'William Henry',
         title: 'Businessman',
         img: review1,
-        icon: quote,
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
     },
     {
@@ -19,7 +18,6 @@ const testimonials = [
         name: 'Awlad Hossain',
         title: 'Businessman',
         img: review2,
-        icon: quote,
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
     }
 ]

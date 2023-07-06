@@ -9,6 +9,7 @@ import Project from "../components/Project/Project";
 import Services from "../components/Services/Services";
 import Main from "../layout/Main";
 import ProjectDetails from "../components/Project/ProjectDetails";
+import ContactPage from "../components/Contact/ContactPage";
 // import PrivateRoutes from "./PrivateRoutes";
 const router = createBrowserRouter([
   {
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: <Contact></Contact>,
+        element: <ContactPage/>,
       },
       // {
       //   path: "/login",
