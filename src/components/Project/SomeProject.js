@@ -27,9 +27,16 @@ const SomeProject = () => {
           )
         }
       </div>
-      <Link to='/projects'>
-        <button className="border mt-5 text-xl px-4 py-2 hover:bg-gray-600 font-bold rounded hover bg-gray-800">More Project</button>
-      </Link>
+      <div className='text-center mt-14'>
+                <Link
+                    to="/services"
+                    className="font-semibold transition-colors duration-200 text-white text-lg leading-21 bg-orange-400 px-[22px] py-[15px] rounded-md hover:bg-gray-600 hover:text-white border"
+                    aria-label="More Services"
+                    title="More Services"
+                >
+                    More Services
+                </Link>
+            </div>
     </div>
   );
 };

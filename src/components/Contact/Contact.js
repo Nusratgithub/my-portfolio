@@ -12,7 +12,7 @@ const Contact = () => {
             <SectionTitle title="Contact me"></SectionTitle>
 
             <div>
-                <div className="grid grid-cols-1">
+             <div className="grid grid-cols-1">
                     <div className="mt-10 lg:mx-0 mx-2">
                         <form className="grid grid-cols-6 gap-6">
                             <div className="col-span-6 md:col-span-3">
@@ -36,7 +36,7 @@ const Contact = () => {
                             </div>
                             <div className="col-span-6">
                                 <button
-                                    className="block w-full py-4 text-xl leading-leading-30 font-semibold text-slate-100 bg-gray-800  rounded-rounded-10"
+                                    className="block w-full py-4 text-xl leading-leading-30 font-semibold text-slate-100 bg-orange-400  rounded-rounded-10"
                                     type="submit"
                                     onClick={handleSendMsg}
                                 >

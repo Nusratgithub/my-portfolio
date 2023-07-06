@@ -5,6 +5,8 @@ import UnderHeader from "../UnderHeader/UnderHeader";
 import OtherPart from "../OtherPart/otherPaart";
 import Contact from "../Contact/Contact";
 import SomeProject from "../Project/SomeProject";
+import Team from '../Team/Team'
+import Testimonials from '../Testimonial/Testimonials';
 
 const Home = () => {
   
@@ -14,6 +16,8 @@ const Home = () => {
       <Skills></Skills>
       <SomeProject></SomeProject>
       {/* <OtherPart></OtherPart> */}
+      <Team></Team>
+      <Testimonials/>
       <Contact></Contact>
     </div>
   );
