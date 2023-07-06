@@ -20,7 +20,7 @@ export default function UnderHeader() {
           }}
          />
           </h2>
-          <p className="mb-8 leading-relaxed text-slate-50">
+          <p className="my-4 leading-relaxed text-slate-50">
             I'm a professional front-end web developer.<br />
             I have been learning web development since 2021.<br />
             My Work Is Always Simple, Fresh, And Pixel-Perfect. readable code

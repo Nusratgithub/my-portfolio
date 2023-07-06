@@ -29,12 +29,12 @@ const SomeProject = () => {
       </div>
       <div className='text-center mt-14'>
                 <Link
-                    to="/services"
+                    to="/projects"
                     className="font-semibold transition-colors duration-200 text-white text-lg leading-21 bg-orange-400 px-[22px] py-[15px] rounded-md hover:bg-gray-600 hover:text-white border"
                     aria-label="More Services"
                     title="More Services"
                 >
-                    More Services
+                    More Projects
                 </Link>
             </div>
     </div>

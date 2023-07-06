@@ -5,9 +5,9 @@ import logo from "../../logo.svg";
 
 const About = () => {
   return (
-    <d className="container mx-auto text-gray-300">
-            <div className="lg:flex mt-10 justify-center lg:mx-0  gap-4">
-              <div className="border border-gray-600 my-5 p-7 lg:w-6/12 space-y-4">
+    <div className="container mx-auto my-10 text-gray-300">
+            <div className="lg:flex justify-center gap-4">
+        <div className="border border-gray-600 my-5 p-7 lg:w-6/12 bg-[#13233fe9] space-y-4">
                 <div className="">
                   {/* <i>
                       <UserIcon className="text-sky-600 " />
@@ -29,7 +29,7 @@ const About = () => {
                   <b>Email: </b> <span>nusrat17175@gmail.com</span>
                 </div>
               </div>
-              <div className="border border-gray-600 my-5 p-7 lg:w-6/12 space-y-4">
+        <div className="border border-gray-600 my-5  bg-[#13233fe9] p-7 lg:w-6/12 space-y-4">
                 <div>
                   {/* <i>
                       <FlagIcon className="aboutInnerIcon" />
@@ -54,7 +54,7 @@ const About = () => {
             </div>
      
 
-    </d>
+    </div>
   );
 };
 

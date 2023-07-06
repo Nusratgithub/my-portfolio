@@ -7,6 +7,7 @@ import Contact from "../Contact/Contact";
 import SomeProject from "../Project/SomeProject";
 import Team from '../Team/Team'
 import Testimonials from '../Testimonial/Testimonials';
+import SomeServices from "../Services/SomeServices";
 
 const Home = () => {
   
@@ -14,11 +15,12 @@ const Home = () => {
     <div>
       <UnderHeader></UnderHeader>
       <Skills></Skills>
+      <SomeServices />
       <SomeProject></SomeProject>
       {/* <Team></Team> */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       <OtherPart></OtherPart>
-      <Contact></Contact>
+      <Contact/>
     </div>
   );
 };

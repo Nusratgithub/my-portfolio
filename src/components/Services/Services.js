@@ -11,7 +11,7 @@ const Services = () => {
     <div className="py-10 container mx-auto">
       <SectionTitle title=" My Services"></SectionTitle>
    
-            <div className="grid lg:grid-cols-3 gap-3 my-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-3 my-5">
               <div className="inner-service-content">
                     <CodeBracketIcon className="services-inner-icon"></CodeBracketIcon>
                     <h2>Web Design</h2>

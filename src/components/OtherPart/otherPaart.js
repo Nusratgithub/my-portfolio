@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const OtherPart = () => {
   return (
-    <div className="my-10">
-      <div className="container mx-auto py-4 bg-gray-800">
+    <div className="mb-10">
+      <div className="container mx-auto py-4 bg-[#13233fe9]">
         <div className="">
           <div className="text-center mx-auto my-3 lg:w-1/2 ">
             <h1 className="text-xl py-3 text-orange-400">HIRE ME FOR YOUR AWESOME PROJECT</h1>
